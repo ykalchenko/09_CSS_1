@@ -1,0 +1,142 @@
+font-family: 'Montserrat', sans-serif;
+font-family: 'PT Sans', sans-serif;
+body {
+  margin: 0px;
+}
+
+.columns {
+  width: 940px;
+  justify-content: space-between;
+  /*display: flex;*/
+  display: none;
+  margin: auto;
+  gap: 20px;
+}
+
+.column {
+  width: 60px;
+  height: 100vh;
+  background-color: #ffe5e5;
+}
+
+.header {
+  width: 940px;
+  height: 298px;
+  text-align: center;
+  padding-top: 111px;
+  margin-left: 282px;
+}
+
+main {
+  margin-left: 282px;
+}
+
+h1, h2, h3, h5 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #0ec8cb;
+  font-size: 41px;
+  line-height: 46px;
+  letter-spacing: 9px;
+  padding-left: 7px;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  text-align: center;
+  margin-top: 43px;
+  letter-spacing: -2px;
+  margin-left: 14px;
+}
+
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 4px;
+  padding-left: 27px;
+  font-size: small;
+  color: #898f99;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: 'PT Sans', sans-serif;
+  color: #999999;
+  font-weight: lighter;
+  line-height: 31px;
+  font-weight: 200;
+}
+
+p {
+  font-family: 'PT Sans', sans-serif;
+  color: #999999;
+  font-weight: lighter;
+  line-height: 23px;
+  font-size: 13px;
+  font-size: 13px;
+  padding: 5px 8px 5px 14px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  width: 940px;
+}
+
+.card {
+  /*display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;*/
+  width: 220px;
+  height: 420px;
+  gap: 20px;
+  text-align: center;
+  /*vertical-align: auto;*/
+}
+
+svg {
+  transition: .4s;
+  fill: #000000;
+}
+
+.card:hover {
+  transition: .4s;
+  color: #ffffff;
+  background-color: #0ec8cb;
+}
+
+.card:hover>svg {
+  fill: #ffffff;
+}
+
+.card:hover>p {
+  color: #ffffff;
+}
+
+.anchor {
+  margin-left: 16px;
+  margin-top: 59px;
+}
+
+.diamond {
+  margin-left: 5px;
+  margin-top: 58px;
+}
+
+.eyeglasses {
+  margin-left: -6px;
+  margin-top: 67px;
+}
+
+.monitor {
+  margin-left: -14px;
+  margin-top: 64px;
+}
